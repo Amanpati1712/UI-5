@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./download.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 65%;
+    height: 100vh;
+    background-color: rgb(245, 241, 241);
+}
+.top{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+nav ul{
+    width: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    width: 50%;
+    height: auto;
+    padding-left: 30px;
+}
+.header h1{
+    font-size: 50px;
+}
+.header small{
+    font-size: 30px;
+}
+.result{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
+.main-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one{
+    width: 30%;
+   height: 250px;
+    background-image: url('./images\ \(3\).jpg');
+    border: 1px solid gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+    width: 30%;
+    height: 250px;
+    background-image: url('./images\ \(5\).jpg');
+    border: 1px solid gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    width: 40%;
+    border: 1px solid gray;
+    height: 250px;
+}
+.div-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 800;
+}
+.two h2{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+#btn{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#btns{
+    width: 80px;
+    height: 30px;
+    background-color:transparent;
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.two p{
+    width: 60%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.two h3{
+  padding: 20px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one-1{
+    width: 70%;
+    height: 220px;
+    background-image: url('./images\ \(6\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two-2{
+    width: 30%;
+    height: 220px;
+    background-image: url('./images\ \(4\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* responsive */
+ @media(max-width:768px) {
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .top{
+        width: 100%;
+        height: 30px;
+    }
+    nav{
+        width: 100%;
+        height: 40px;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .header h1{
+        
+        font-size: 25px;
+    }
+    .header small{
+        font-size: 10px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+       
+    }
+    .two{
+        width: 100%;
+    }
+    .three{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .one-1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .two-2{
+        width: 100%;
+        margin-top: 20px;
+    } }
